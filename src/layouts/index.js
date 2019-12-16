@@ -1,10 +1,12 @@
-import styles from './index.css';
-
 function BasicLayout(props) {
   return (
-    <div className={styles.normal}>
-      <h1 className={styles.title}>Yay! Welcome to umi!</h1>
-      {props.children}
+    <div>
+      <div style={{textAlign:'center', height: '50px', backgroundColor: '#ddd', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+        CRUD DEMO
+      </div>
+      <div style={{margin: '10px', padding: '10px', border: '1px dashed #ddd'}}>
+        {props.children}
+      </div>
     </div>
   );
 }

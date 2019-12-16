@@ -1,0 +1,29 @@
+.search-row {
+  height: auto;
+  transition: all 0.2s linear;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 20px;
+
+  &.table-row {
+    margin-top: 20px;
+  }
+}
+
+.page-row {
+  margin-top: 20px;
+  text-align: center;
+  transition: all 0.2s linear;
+
+  > div {
+    display: inline-block;
+    vertical-align: middle;
+    &:nth-child(1) {
+      float: left;
+    }
+    &:nth-child(2) {
+      float: right;
+    }
+  }
+}

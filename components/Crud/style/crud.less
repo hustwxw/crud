@@ -1,0 +1,26 @@
+.action {
+  a {
+    display: inline-block;
+    margin-right: 10px;
+    &:last-child {
+      margin-right: 0px;
+    }
+  }
+}
+
+.debugger {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  position: fixed;
+  bottom: 0px;
+  right: 10px;
+  background-color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 10px;
+  z-index: 99999;
+  flex-direction: column;
+}
